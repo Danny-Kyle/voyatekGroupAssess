@@ -22,7 +22,7 @@ const NavItems = [
 
 const Navbar = () => {
   return (
-    <header className="flex items-center justify-between w-full p-4 bg-white shadow">
+    <header className="items-center justify-between w-full p-4 bg-white shadow hidden md:flex">
       <Image
         src={'/logo.png'}
         alt='logo'
